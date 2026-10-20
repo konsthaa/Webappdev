@@ -1,0 +1,66 @@
+/* Custom font */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Lets remove default link color */
+a {
+    color: #800080;          /* Link color magenta */
+    text-decoration: none;  /* Removing underline */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e65100;          /* Hover effect */
+    text-decoration: underline; /* Showing underline on hover */
+}
+
+/* border and rounder corners to image */
+img {
+    border: 3px solid #ccc;
+    border-radius: 12px;     /* Rounded corners */
+    max-width: 100%;
+    height: auto; 
+}
+
+/* Hover outline effect */
+img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); /* adds shadow on hover for style */
+}
+
+/* Every second row in table has different background color */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+table:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); /* Adds a shadow on hover for style */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #004d40;
+    color: white;
+}
+
+/* Alternating background color */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* List does not have default bullet points */
+ul {
+    list-style-type: square; /* Could also be none to remove bullets completely */
+    padding-left: 20px;
+}
